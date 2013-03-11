@@ -1,0 +1,45 @@
+--[[
+Author: Linearus
+Version: 1.0
+Created: 11 March 2013
+
+License:
+
+COPYRIGHT NOTICE
+Copyright © 2013 Adam Watson [Linearus linearus1@gmail.com]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+associated documentation files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
+copies of the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-Visible credit is given to the original author.
+-The software is distributed in a non-profit way.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+]]--
+
+
+--[ Variables ]--
+
+local updateUrl = "https://raw.github.com/Linearus/LinearGlobal/master/DATA"
+local x, y = term.getSize()
+local isAdv = term.isColor()
+local 
+
+--[ Start ]--
+
+if http == false
+  print("Please enable http")
+  print("Set enableAPI_http to 1 in mod_ComputerCraft.cfg")
+  return
+end
+
+
+
+
